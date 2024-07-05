@@ -1,0 +1,6 @@
+export CHROMADB_HOST="localhost"
+export CHROMADB_PORT="17171"
+export EMBEDDING_MODEL="all-mpnet-base-v2"
+export CHROMADB_COL_NAME="All_Guideline_QA"
+export OPENAI_API_KEY=wellwellwell
+export PYTHONPATH=.

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "flask-llm"
+version = "0.1.0"
+description = ""
+authors = ["yijun xu <yijun@ucare.io>"]
+readme = "README.md"
+packages = [{include = "flask_llm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+chromadb = "0.3.25"
+langchain = "^0.0.225"
+pydantic = "1.10.7"
+flask-pydantic = "^0.11.0"
+gunicorn = "^21.2.0"
+openai = "^0.27.8"
+sentence-transformers = "2.2.2"
+gevent = "^23.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
